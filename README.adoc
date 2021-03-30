@@ -16,6 +16,10 @@ Features are separated by package name.
 ** https://openjdk.java.net/jeps/390
 * stream
 
+== Slides
+
+https://github.com/rahmanusta/java16-edu/raw/master/Java_16_Features.pdf
+
 == Download Open JDK
 
 https://jdk.java.net/16/
