@@ -1,0 +1,1 @@
+clang hello.c -o hello

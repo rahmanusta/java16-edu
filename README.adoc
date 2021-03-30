@@ -1,0 +1,32 @@
+= Java 16 Features
+
+Features are separated by package name.
+
+* instanceofs
+** https://openjdk.java.net/jeps/394
+* linker
+** https://openjdk.java.net/jeps/389
+* records
+** https://openjdk.java.net/jeps/395
+* seals
+** https://openjdk.java.net/jeps/397
+* socket
+** https://openjdk.java.net/jeps/380
+* warnings
+** https://openjdk.java.net/jeps/390
+* stream
+
+
+== JVM parameters
+
+The following JVM parameter must be set to run Foreign Linker API.
+
+-Dforeign.restricted={deny,permit,debug,warn}
+
+=== Example
+
+-Dforeign.restricted=warn
+
+== Standard C library functions
+
+https://www.ibm.com/support/knowledgecenter/en/ssw_ibm_i_74/rtref/stalib.htm
