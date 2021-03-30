@@ -17,6 +17,11 @@ public class HelloApp {
 
     public static void main(String[] args) throws Throwable {
 
+        /*
+         The 'nativecode' folder exist in the project,
+         Change the full path as in your system, and
+         Compile hello.c before run this class
+          */
         Path path = Paths.get("/Users/usta/projects/java16-edu/nativecode/hello");
         LibraryLookup helloLibrary = LibraryLookup.ofPath(path);
 
