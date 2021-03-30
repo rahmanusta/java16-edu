@@ -16,6 +16,9 @@ Features are separated by package name.
 ** https://openjdk.java.net/jeps/390
 * stream
 
+== Download Open JDK
+
+https://jdk.java.net/16/
 
 == JVM parameters
 
